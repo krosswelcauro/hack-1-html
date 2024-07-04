@@ -1,0 +1,72 @@
+:root {
+    --bg-blue: #93B5C9;
+    --bg-wine: #AB2849;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.box-blue {
+    background-color: var(--bg-blue);
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+.box-red {
+    background-color: var(--bg-wine);
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+.box-main {
+    position: absolute;
+    height: 200px;
+    top: 100px;
+}
+
+.box-1 {
+    position: absolute;
+    width: 80%;
+    left: 20%;
+    top: 320px;
+}
+
+.box-2 {
+    position: absolute;
+    width: 80%;
+    left: 20%;
+    top: 440px;
+}
+
+.box-3 {
+    position: absolute;
+    width: 80%;
+    left: 20%;
+    top: 560px;
+}
+
+.box-4 {
+    position: absolute;
+    width: 80%;
+    left: 20%;
+    top: 680px;
+}
+
+.footer {
+    background-color: var(--bg-wine);
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    top: 800px;
+    margin-left: 5%;
+}
